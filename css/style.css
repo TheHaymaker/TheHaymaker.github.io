@@ -1,8 +1,11 @@
 
+}
 
 
 
 header {
+
+	font-family: 'Lato', sans-serif;
 	
 }
 
@@ -39,21 +42,38 @@ div.container {
 
 .allTheDivs {
 	display: inline-block;
-	left: 100px;
 	color: yelloworange;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 230px;
+	margin-left: 80px;
 	line-height: 44px;
-	font-size: 36px;
-	font-family: Helvetica, Sans-serif;
+	font-size: 40px;
 	letter-spacing: 2px;
 
 }
 
-div.animated.fadeInDown {
+div.animated {
 	float: left;
 }
 
+div.fadeInUp:hover {
+	text-decoration: bold;
+}
+
+div.fadeInDown:hover {
+text-decoration: bold;
+}
+
+div.fadeIn:hover {
+	text-decoration: bold;
+}
+
+div.fadeInRight:hover {
+	text-decoration: bold;
+}
+
+div.fadeInLeftBig:hover {
+	text-decoration: bold;
+}
 
 .logo {
 

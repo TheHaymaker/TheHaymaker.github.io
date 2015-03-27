@@ -1079,6 +1079,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  -webkit-animation-delay: 2s;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1086,6 +1087,7 @@ Copyright (c) 2015 Daniel Eden
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
+
   }
 
   100% {
@@ -1112,6 +1114,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+  -webkit-animation-delay: 1.5s;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -1145,6 +1148,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
+  -webkit-animation-delay: 3.5s;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -1211,6 +1215,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
+  -webkit-animation-delay: 1s;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -1244,6 +1249,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  -webkit-animation-delay: 2s;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -1310,6 +1316,7 @@ Copyright (c) 2015 Daniel Eden
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  animation-delay: 2.5s;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -2470,6 +2477,8 @@ Copyright (c) 2015 Daniel Eden
 .hinge {
   -webkit-animation-name: hinge;
   animation-name: hinge;
+  /*-webkit-animation-delay: 5s;*/
+  /*-webkit-animation-fill-mode:;*/
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
