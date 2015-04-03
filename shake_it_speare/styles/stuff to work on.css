@@ -1,0 +1,51 @@
+#glasses {
+    height: 220px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+    position: absolute;
+
+
+}
+
+.rectangle {
+
+    width: 36px;
+    height: 29px;
+    background-color: black;
+    border-bottom-right-radius: 12px; 
+    border-bottom-left-radius:12px;
+    position: absolute;
+    left: 414px;
+    top: 251px;
+
+    
+}
+
+.rectangle1 {
+
+    width: 36px;
+    height: 29px;
+    background-color: black;
+    border-bottom-right-radius: 12px; 
+    border-bottom-left-radius:12px;
+    position: absolute;
+    left: 361px;
+    top: 251px;
+
+    
+}
+
+.rectangle2 {
+
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left:50%;
+    top: 42%;
+    
+    
+}

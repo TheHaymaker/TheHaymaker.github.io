@@ -1,0 +1,98 @@
+
+
+body {
+  background-image: url(http://www.parisfleamarkethfc.com/images/paper-background.jpg);
+  background-size: cover;
+}
+h1 {
+    font-family: 'Amatic SC', sans-serif, cursive;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 57px;
+    margin: 0 0 23px 0;
+    text-align: center;
+    color: rgb(153,0,0);
+
+}
+h2 {
+    font-family: 'Amatic SC', sans-serif, cursive;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 38px;
+    margin: 0 0 23px 0;
+    text-align: center;
+}
+li {
+  list-style: none;
+}
+#generate-button{
+  font-family: 'Amatic SC', sans-serif, cursive;
+  font-size: 20px;
+  margin: 15px 0 15px 0;
+  position: relative;
+  display: center;
+  padding: 5px;
+  box-shadow: 2px 2px 1px rgba(96, 96, 96, 0.7);
+  border-radius: 2px;
+  border-bottom: 2px solid black;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  background-color: rgb(120, 0, 0);
+  color: white;
+
+}
+#poem-space {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+
+
+#container1{
+  text-align: center;
+  margin: auto;
+  max-width: 300px;
+}
+#container2 {
+  text-align: left;
+  margin: auto;
+  max-width: 400px;
+}
+
+#container3 {
+  text-align: center;
+  margin: auto;
+  max-width: 100px;
+}
+
+
+
+
+
+#shakes-photo {
+  background: url(https://bornstoryteller.files.wordpress.com/2011/07/shakespeare.gif);
+  background-size: cover;
+  height: 220px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 7px 7px 3px rgba(96, 96, 96, 0.6);
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border: 3px solid grey;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-size: auto;
+
+    }
+
+
+}
